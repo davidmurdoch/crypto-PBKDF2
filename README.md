@@ -1,5 +1,7 @@
-crypto-PBKDF2
-=============
+# You should probably use [easy-pbkdf2](https://github.com/davidmurdoch/easy-pbkdf2) instead as it uses node's built-in `crypto.pbkdf2` method.
+
+
+## crypto-PBKDF2
 
 [crypto.js'](http://code.google.com/p/crypto-js/) PBKDF2 standalone implementation for npm.
 
@@ -9,7 +11,7 @@ var CryptoJS = require("crypto-PBKDF2");
 
 var DEFAULT_HASH_ITERATIONS = 4000;
 
-var SALT_SIZE: 192/8;
+var SALT_SIZE = 192/8;
 
 var KEY_SIZE = 768/32;
 
